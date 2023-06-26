@@ -1,0 +1,26 @@
+.nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.nav ul {   
+    list-style: none;
+    display: flex;
+    gap: 1.9rem;
+}
+
+.burger-menu{
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
