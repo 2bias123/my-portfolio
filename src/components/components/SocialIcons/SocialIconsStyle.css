@@ -1,0 +1,12 @@
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
+.sosialIcon {
+    width: 2rem;
+    height: 2rem;
+}
