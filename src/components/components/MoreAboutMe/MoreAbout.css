@@ -1,13 +1,14 @@
-
-
 .about-me{
     padding: 1rem 6rem;
+    padding-top: 6rem;
 }
 
 .about-me h2 {
     text-align: center;
+    color: #C778DD;
 }
 
 .about-me p {
     padding: 0.4rem;
+    color: #ABB2BF;
 }

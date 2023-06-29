@@ -1,9 +1,10 @@
 import React from "react";
 import "./HeroStyle.css"
 
+
 const Hero: React.FC = () => {
     return(
-      <section className="hero">
+      <section className="hero" id="hero">
         <img className="w-full"
             src={require('./tobias.jpg')}
             alt="me"

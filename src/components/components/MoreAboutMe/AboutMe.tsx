@@ -3,7 +3,7 @@ import './MoreAbout.css';
 
 const AboutMe: React.FC = () => {
     return(
-        <section className="about-me">
+        <section className="about-me" id="about">
             <h2> More about me</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis

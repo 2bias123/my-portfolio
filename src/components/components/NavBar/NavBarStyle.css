@@ -8,19 +8,48 @@
   justify-content: space-between;
   padding: 0.5rem 3.5rem;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: #282c34;
 }
 
 .nav ul {   
-    list-style: none;
-    display: flex;
-    gap: 1.9rem;
+  list-style: none;
+  display: flex;
+  gap: 1.9rem;
+  color: #C778DD;
+}
+
+.nav-links {
+  color: #C778DD;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #C778DD;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  color: #ABB2BF;
+}
+
+
+.nav HashLink {
+  text-decoration: none;
+  color: #C778DD;
 }
 
 .burger-menu{
-    font-size: 2rem;
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
-    display: none;
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+  color: #C778DD;
 }
+
+.nav h1 {
+  color: #C778DD;
+}
+
