@@ -53,3 +53,32 @@
   color: #C778DD;
 }
 
+@media screen and (max-width: 720px){
+  .nav {
+    padding: 0 1.5rem;
+  }
+
+  .nav ul {
+    background-color: #282c34;
+    position: fixed;
+    flex-direction: column;
+    top: 70px;
+    left: auto;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav ul li {
+    margin: 8px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .nav ul.show {
+    transform: translateX(0);
+  }
+}

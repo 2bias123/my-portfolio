@@ -1,30 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NavBarStyle.css"
 import { HashLink } from 'react-router-hash-link';
 
-
 const Navbar: React.FC = () => {
-    return(
-        <div className="nav">
-            <h1><HashLink to="#" smooth className="nav-links">Tobais Meyer Innleggen</HashLink></h1>
-            <ul>
-                {/* These should be links to diffrent parts of the page*/}
-                <li>
-                    <HashLink smooth to="#about" className="nav-link">About</HashLink>
-                </li>
-                <li>
-                    <HashLink smooth to="#resume" className="nav-link">Resume</HashLink>
-                </li>
-                <li>
-                    <HashLink smooth to="#projects" className="nav-link">Projects</HashLink>
-                </li>
-                <li>Contact</li>
-            </ul>
-            <button className="burger-menu">
-                <span>&#9776;</span>
-            </button> 
-        </div>
-    );
-}    
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleClick = (): void => {
+    setIsMenuOpen(prevState => !prevState);
+  };
+
+  const handleNavLinkClick = (): void => {
+    setIsMenuOpen(false);
+  };
+
+  return (
+    <div className="nav">
+      <h1><HashLink to="#" smooth className="nav-links">Tobias Meyer Innleggen</HashLink></h1>
+      <ul className={`list ${isMenuOpen ? "show" : ""}`}>
+        <li>
+          <HashLink smooth to="#about" className="nav-link" onClick={handleNavLinkClick}>About</HashLink>
+        </li>
+        <li>
+          <HashLink smooth to="#resume" className="nav-link" onClick={handleNavLinkClick}>Resume</HashLink>
+        </li>
+        <li>
+          <HashLink smooth to="#projects" className="nav-link" onClick={handleNavLinkClick}>Projects</HashLink>
+        </li>
+        <li>Contact</li>
+      </ul>
+      <button className="burger-menu" onClick={handleClick}>
+        <span>&#9776;</span>
+      </button> 
+    </div>
+  );
+}
 
 export default Navbar;

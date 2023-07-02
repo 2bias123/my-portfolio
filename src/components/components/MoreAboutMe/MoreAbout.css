@@ -1,6 +1,7 @@
 .about-me{
     padding: 1rem 6rem;
     padding-top: 6rem;
+    
 }
 
 .about-me h2 {
@@ -11,4 +12,28 @@
 .about-me p {
     padding: 0.4rem;
     color: #ABB2BF;
+}
+
+
+
+@media screen and (max-width: 720px){
+    .about-me {
+        padding-top: 6rem;
+        margin-top: 2rem;
+    }
+    
+    .about-me h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .about-me {
+        padding-top: 6rem;
+        margin-top: 2rem;
+    }
+    
+    .about-me h2 {
+        text-align: center;
+    }
 }
