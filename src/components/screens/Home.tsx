@@ -17,7 +17,7 @@ function Home() {
             <Router>
             <Navbar></Navbar>
             <Hero></Hero>
-            <AboutMe></AboutMe>
+            {/* <AboutMe></AboutMe> */}
             <Resume></Resume>
             {/* <SkillSection></SkillSection> */}
             <Projects></Projects>

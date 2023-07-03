@@ -15,6 +15,7 @@
 }
 
 .hero-text {
+  scroll-margin-top: 220px;
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;

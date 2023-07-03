@@ -9,9 +9,14 @@ const Hero: React.FC = () => {
             src={require('./tobias.jpg')}
             alt="me"
         />
-        <div className="hero-text">
-            <h1 className="about">Tobias</h1>
-            <p>Som datateknologistudent er jeg begeistret for å dykke ned i verdenen av datavitenskap og teknologi. Gjennom mine studier har jeg opparbeidet en dyp forståelse for programmeringsspråk, algoritmer og databaser. Jeg er alltid klar til å takle komplekse problemer og utvikle innovative løsninger ved hjelp av koding og datamaskiner. Med en stadig skiftende teknologiverden er jeg ivrig etter å være en del av fremtiden og bidra til å forme den.</p>
+        <div className="hero-text" id="hero-text">
+            <h1 className="about">Om meg</h1>
+            <p>
+              Hei. Mitt navn er Tobias og jeg studerer datateknologi på Universitetet i Bergen.
+              Gjennom studiene mine har jeg opparbeidet meg gode kunnskaper innenfor programering, algortimer, 
+              datastrukturer og problemløsning. Jeg er lærevillig og er stadig på jakt etter nye muligheter for å lære. 
+              Med dette som grunnlag føler jeg meg klar for nye utfordringer.
+            </p>
         </div>
       </section>
     );
