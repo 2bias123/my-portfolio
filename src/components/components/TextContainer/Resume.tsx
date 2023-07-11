@@ -8,7 +8,7 @@ const Resume: React.FC = () => {
             <div className="education-wrapper">
                 <h2>Utdanning</h2>
                 <div className="info-wrapper">
-                    <h4>Bachelorgrad i Datateknologi ved UiB</h4>
+                    <h4>Bachelorgrad i Datateknologi ved Universitetet i Bergen</h4>
                     <p>August 2021 - Juni 2024</p>                
                     <p>Bachelor i datateknologi. En informatikk grad med fokus på programutvikling og problemløsning.</p>
                 </div>
@@ -40,10 +40,10 @@ const Resume: React.FC = () => {
             <div className="education-wrapper">
                 <h2>Frivillig arbeid</h2>
                 <div className="info-wrapper">
-                    <h4>Styremedlem echo - hovedstyret linjeforeningen for informatikk</h4>
+                    <h4>Styremedlem echo - Hovedstyret linjeforeningen for informatikk</h4>
                     <p>Juli 2022 - Mars 2024</p>                
                     <p>Demokratisk valgt inn av medstudenter for å jobbe med å gjøre studiehverdagen til informatikkstudenter bedre.</p>
-                    <h4>Styremedlem echo - Gnist</h4>
+                    <h4>Styremedlem echo - Gnist undergruppe av linjeforeningen</h4>
                     <p>September 2021 - Juni 2024</p>                
                     <p>Jobbet tett med instituttet for informatikk med frafallsproblematikk og rekruttering.</p>
                 </div>
