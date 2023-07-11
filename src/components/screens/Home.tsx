@@ -1,9 +1,7 @@
 import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
-import AboutMe from "../components/MoreAboutMe/AboutMe";
 import Navbar from "../components/NavBar/Navbar";
 import Projects from "../components/RecentProjects/Projects";
-// import SkillSection from "../components/SkillSection/SkillSection";
 import SocialIcons from "../components/SocialIcons/SocialIcons";
 import Resume from "../components/TextContainer/Resume";
 import "./HomeStyle.css"
@@ -17,9 +15,7 @@ function Home() {
             <Router>
             <Navbar></Navbar>
             <Hero></Hero>
-            {/* <AboutMe></AboutMe> */}
             <Resume></Resume>
-            {/* <SkillSection></SkillSection> */}
             <Projects></Projects>
             <SocialIcons></SocialIcons>
             <Footer></Footer>

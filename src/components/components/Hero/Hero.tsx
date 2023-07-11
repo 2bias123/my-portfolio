@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
             <h1 className="about">Om meg</h1>
             <p>
               Hei. Mitt navn er Tobias og jeg studerer datateknologi på Universitetet i Bergen.
-              Gjennom studiene mine har jeg opparbeidet meg gode kunnskaper innenfor programering, algortimer, 
+              Gjennom studiene mine har jeg opparbeidet meg gode kunnskaper innenfor programmering, algoritmer, 
               datastrukturer og problemløsning. Jeg er lærevillig og er stadig på jakt etter nye muligheter for å lære. 
               Med dette som grunnlag føler jeg meg klar for nye utfordringer.
             </p>

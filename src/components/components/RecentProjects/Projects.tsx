@@ -1,6 +1,7 @@
 import React from "react";
 import "./ProjectsStyle.css"
 import rust from "../SkillSection/assets/rust.svg"
+import reactSvg from "./react.svg"
 
 
 const Projects: React.FC = () => {
@@ -16,12 +17,12 @@ const Projects: React.FC = () => {
                     className="project-image"
                     />
                     <h3 className="project-title">Rust Train game</h3>
-                    <p className="project-description">Et enkelt spill laget i Rust. Spillet er basert på et kjent tog inspiretrt brettspill.</p>
+                    <p className="project-description">Et enkelt spill laget i Rust. Spillet er basert på et kjent tog inspirert brettspill.</p>
                     <a href="https://github.com/2bias123/train-game" className="project-link">Vis Prosjektet</a>
                 </div>
                 <div className="project-container project-card">
                     <img 
-                    src="https://via.placeholder.com/150"
+                    src={reactSvg}
                     alt="project" 
                     loading="lazy" 
                     className="project-image"
