@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
 
   return (
     <div className="nav">
-      <h1><HashLink to="#" smooth className="nav-links">Tobias Meyer Innleggen</HashLink></h1>
+      <h1><HashLink to="#" smooth className="nav-links" onClick={handleNavLinkClick}>Tobias Meyer Innleggen</HashLink></h1>
       <ul className={`list ${isMenuOpen ? "show" : ""}`}>
         <li>
           <HashLink smooth to="#hero-text" className="nav-link" onClick={handleNavLinkClick}>Om meg</HashLink>
