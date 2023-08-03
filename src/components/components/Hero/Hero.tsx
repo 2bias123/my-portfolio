@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     return(
       <section className="hero" id="hero">
         <img className="w-full"
-            src={require('./tobias.jpg')}
+            src={require('./tobias.jpeg')}
             alt="me"
         />
         <div className="hero-text" id="hero-text">
