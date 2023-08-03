@@ -17,7 +17,7 @@
 .projects-title {
     text-align: center;
     margin-bottom: 1rem;
-    color: #DD78A8;
+    color: #fff;
 }
 
 .project-container {
@@ -29,11 +29,15 @@
 
 .project-container p {
     padding: 0.4rem;
-    color:  #ABB2BF;
+    color:  #fff;
 }
 
 .project-container h3 {
-    color: #DD78A8;
+    color: #fff;
+}
+
+.projects-container a {
+    color: #C778DD;
 }
 
 .project-card {

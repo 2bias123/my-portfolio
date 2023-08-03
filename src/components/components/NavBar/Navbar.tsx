@@ -26,10 +26,13 @@ const Navbar: React.FC = () => {
         <li>
           <HashLink smooth to="#projects" className="nav-link" onClick={handleNavLinkClick}>Prosjekter</HashLink>
         </li>
+        <button className="small-menu" onClick={handleClick}>
+          <span>&#10006;</span>
+        </button>
       </ul>
-      <button className="burger-menu" onClick={handleClick}>
+      <button className="small-menu" onClick={handleClick}>
         <span>&#9776;</span>
-      </button> 
+      </button>
     </div>
   );
 }

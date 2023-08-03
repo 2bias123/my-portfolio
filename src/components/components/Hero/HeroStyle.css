@@ -11,7 +11,7 @@
 .hero img {
   height: 37.5rem;
   width: auto;
-  border-radius: 100%;
+  border-radius: 10%;
 }
 
 .hero-text {
@@ -24,12 +24,12 @@
   
 .hero-text p {
   padding: 0.3rem 0;
-  color: #ABB2BF;
+  color: #fff;
 }
 
 .hero-text h1 {
   font-size: 2.5rem;
-  color: #DD78A8;
+  color: #fff;
 }
 
 @media screen and (max-width: 720px){

@@ -12,10 +12,13 @@
 }
 
 .nav ul {   
-  list-style: none;
   display: flex;
   gap: 1.9rem;
-  color: #C778DD;
+}
+
+.nav ul li {
+  display: inline-block;
+  list-style: none;
 }
 
 .nav-links {
@@ -25,29 +28,25 @@
 }
 
 .nav-link {
-  color: #C778DD;
+  color: #fff;
   text-decoration: none;
   margin-right: 10px;
 }
 
 .nav-link:hover {
-  color: #ABB2BF;
-}
-
-
-.nav HashLink {
-  text-decoration: none;
   color: #C778DD;
 }
 
-.burger-menu{
+
+.small-menu{
   font-size: 2rem;
   border: 0;
   background-color: transparent;
   cursor: pointer;
   display: none;
-  color: #C778DD;
+  color: #fff;
 }
+
 
 .nav h1 {
   color: #C778DD;
@@ -59,25 +58,36 @@
   }
 
   .nav ul {
-    background-color: #282c34;
+    background-color: #C778DD;
     position: fixed;
+    display: flex;
     flex-direction: column;
-    top: 70px;
-    left: auto;
-    width: 80%;
-    text-align: center;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100vh;
+    padding-top: 80px;
+    margin: auto;
+    text-align: left;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;
   }
 
   .nav ul li {
-    margin: 8px;
-  }
-
-  .burger-menu {
     display: block;
   }
 
+  .nav ul .small-menu {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+  }
+
+  .small-menu {
+    display: block;
+    font-size: 25px;
+  }
   .nav ul.show {
     transform: translateX(0);
   }
