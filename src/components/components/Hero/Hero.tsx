@@ -5,10 +5,12 @@ import "./HeroStyle.css"
 const Hero: React.FC = () => {
     return(
       <section className="hero" id="hero">
-        <img className="w-full"
-            src={require('./tobias.jpeg')}
-            alt="me"
-        />
+          <div className = "image-container">
+          <img className="w-full"
+              src={require('./tobias_2.jpeg')}
+              alt="me"
+          />
+        </div>
         <div className="hero-text" id="hero-text">
             <h1 className="about">Om meg</h1>
             <p>

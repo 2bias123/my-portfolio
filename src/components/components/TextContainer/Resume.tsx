@@ -38,6 +38,17 @@ const Resume: React.FC = () => {
                 </div>
             </div>
             <div className="education-wrapper">
+                <h2>Andre ferdigheter</h2>
+                <div className="info-wrapper languages">
+                    <h4>Språk</h4>
+                    <p>Norsk - Morsmål</p>
+                    <p>Engelsk - Flytende</p>
+                    <h4>Programmeringsspråk og rammeverk</h4>
+                    <p>Java, Python, Rust, Haskell, Git, TypeScript, React, React Native, SQL, HTML, CSS, Tauri, C og PHP</p>
+                </div>
+            </div>
+
+            <div className="education-wrapper">
                 <h2>Frivillig arbeid</h2>
                 <div className="info-wrapper">
                     <h4>Styremedlem echo - Hovedstyret linjeforeningen for informatikk</h4>

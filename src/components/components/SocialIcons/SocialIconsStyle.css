@@ -9,4 +9,11 @@
 .sosialIcon {
     width: 2rem;
     height: 2rem;
+    margin-bottom: 0.5rem;
 }
+
+.sosialIcon:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+

@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectsStyle.css"
-import rust from "../SkillSection/assets/rust.svg"
-import reactSvg from "./react.svg"
+import rust from "./tauri.jpg"
+import reactSvg from "./image-1.png"
 
 
 const Projects: React.FC = () => {
@@ -16,9 +16,9 @@ const Projects: React.FC = () => {
                     loading="lazy" 
                     className="project-image"
                     />
-                    <h3 className="project-title">Rust Train game</h3>
-                    <p className="project-description">Et enkelt spill laget i Rust. Spillet er basert på et kjent tog inspirert brettspill.</p>
-                    <a href="https://github.com/2bias123/train-game" className="project-link">Vis Prosjektet</a>
+                    <h3 className="project-title">Tauri Graftegner</h3>
+                    <p className="project-description">Et enkelt graftegnerprogram med backend i Rust og frontend i React.ts.</p>
+                    <a href="https://github.com/2bias123/first-tauri" className="project-link">Vis Prosjektet</a>
                 </div>
                 <div className="project-container project-card">
                     <img 
