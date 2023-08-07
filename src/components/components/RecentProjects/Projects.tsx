@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectsStyle.css"
-import rust from "./tauri.jpg"
-import reactSvg from "./image-1.png"
+import tauri from "./tauri.jpg"
+import codeSnippet from "./image-1.png"
 
 
 const Projects: React.FC = () => {
@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
             <div className="projects-container">
                 <div className="project-container project-card">
                     <img 
-                    src={rust}
+                    src={tauri}
                     alt="project" 
                     loading="lazy" 
                     className="project-image"
@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
                 </div>
                 <div className="project-container project-card">
                     <img 
-                    src={reactSvg}
+                    src={codeSnippet}
                     alt="project" 
                     loading="lazy" 
                     className="project-image"

@@ -57,6 +57,9 @@ const Resume: React.FC = () => {
                     <h4>Styremedlem echo - Gnist undergruppe av linjeforeningen</h4>
                     <p>September 2021 - Juni 2024</p>                
                     <p>Jobbet tett med instituttet for informatikk med frafallsproblematikk og rekruttering.</p>
+                    <h4>echo bediftstur komitee</h4>
+                    <p>Mars 2023 - September 2023</p>
+                    <p>Planla og arrangerte reise til Oslo for å hjelpe echo-studenter med å knyttet kontakter i arbeidslivet.</p>
                 </div>
             </div>
         </section>
