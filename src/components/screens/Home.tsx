@@ -1,3 +1,4 @@
+import CvCarousel from "../components/CvCarousel/CvCarousel";
 import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/NavBar/Navbar";
@@ -15,7 +16,8 @@ function Home() {
             <Router>
             <Navbar></Navbar>
             <Hero></Hero>
-            <Resume></Resume>
+            <CvCarousel></CvCarousel>
+            {/* <Resume></Resume> */}
             <Projects></Projects>
             <SocialIcons></SocialIcons>
             <Footer></Footer>
