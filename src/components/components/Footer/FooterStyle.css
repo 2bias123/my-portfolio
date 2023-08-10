@@ -7,3 +7,10 @@
 .footer p {
 color: #C778DD;
 }
+
+@media screen and (max-width: 720px){
+    .footer{
+        margin: 0;
+        padding: 0.5rem;
+    }
+}

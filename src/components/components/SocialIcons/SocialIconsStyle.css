@@ -17,3 +17,17 @@
     transition: 0.3s;
 }
 
+@media screen and (max-width: 720px){
+    .social-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+    .sosialIcon{
+        padding: 1rem 0.5rem;
+        padding-bottom: 0rem;
+    }
+}

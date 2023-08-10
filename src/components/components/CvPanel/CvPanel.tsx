@@ -10,9 +10,9 @@ const CvPanel: React.FC<CvPanelProps> = ({children,isActive}) => {
     return (
     <section className="cvPanel">
         {isActive ?
-        <div>
-            <div>{children}</div>
-        </div> 
+        <div className="children">
+            {children}
+        </div>
         : null}
         
     </section>
