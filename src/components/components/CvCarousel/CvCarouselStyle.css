@@ -8,13 +8,13 @@
 }
 
 .cv-title{
-    color: #fff;
+    color: #000;
     margin: 0;
     margin-top: 35px;
 }
 
 .cv-titles{
-    color: #fff;
+    color: #000;
     display: flex;
     margin: 20px 0 40px;
 }
@@ -33,7 +33,7 @@
     content: '';
     width: 0;
     height: 3px;
-    background: #C778DD;
+    background: #4285F4;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -49,24 +49,24 @@
 }
 
 .text-container h2 {
-    color: #fff;
+    color: #000;
 }
 
 .info-wrapper h2{
-    color: #fff;
+    color: #000;
 }
 .info-wrapper h3 {
     padding-top: 0.4rem ;
-    color: #fff;
+    color: #000;
 }
 
 .info-wrapper h4 {
-    color: #fff;
+    color: #000;
 }
 
 .info-wrapper p {
     padding: 0.4rem;
-    color: #fff;
+    color: #000;
 }
 
 @media screen and (max-width: 720px){

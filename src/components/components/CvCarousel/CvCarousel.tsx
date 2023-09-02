@@ -22,7 +22,7 @@ const CvCarousel: React.FC = () => {
                 <h3 className="cv-links active" onClick={() => changeVisibleSection(0)}>Utdanning</h3>
                 <h3 className="cv-links" onClick={() => changeVisibleSection(1)}>Arbeidserfaring</h3>
                 <h3 className="cv-links"  onClick={() => changeVisibleSection(2)}>Andre Ferdigheter</h3>
-                <h3 className="cv-links" onClick={() => changeVisibleSection(3)}>Frivillig værv</h3>
+                <h3 className="cv-links" onClick={() => changeVisibleSection(3)}>Frivillig Verv</h3>
             </div>
             <div className="cv-content">
                 <CvPanel isActive={active === 0}>
@@ -61,7 +61,7 @@ const CvCarousel: React.FC = () => {
                         <p>Norsk - Morsmål</p>
                         <p>Engelsk - Flytende</p>
                         <h4>Programmeringsspråk og rammeverk</h4>
-                        <p>Java, Python, Rust, Haskell, Git, TypeScript, React, React Native, SQL, HTML, CSS, Tauri, C og PHP</p>
+                        <p>Java, Python, Rust, Haskell, Git, TypeScript, React, React Native, SQL, HTML, CSS, Tauri, og PHP</p>
                     </div>
                 </CvPanel>
                 <CvPanel isActive={active === 3}>

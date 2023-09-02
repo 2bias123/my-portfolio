@@ -8,7 +8,7 @@
   justify-content: space-between;
   padding: 0.5rem 3.5rem;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  background-color: #282c34;
+  background-color: #fff;
 }
 
 .nav ul {   
@@ -22,19 +22,21 @@
 }
 
 .nav-links {
-  color: #C778DD;
+  color: #4285F4;
   text-decoration: none;
   margin-right: 10px;
 }
 
 .nav-link {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   margin-right: 10px;
+  font-weight: 100000;
+  font-size: larger;
 }
 
 .nav-link:hover {
-  color: #C778DD;
+  color: #4285F4;
 }
 
 
@@ -44,12 +46,16 @@
   background-color: transparent;
   cursor: pointer;
   display: none;
+  color: #4285F4;
+}
+
+.small-menu.exiter {
   color: #fff;
 }
 
 
 .nav h1 {
-  color: #C778DD;
+  color: #4285F4;
 }
 
 @media screen and (max-width: 720px){
@@ -58,7 +64,7 @@
   }
 
   .nav ul {
-    background-color: #C778DD;
+    background-color: #4285F4;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -75,6 +81,14 @@
 
   .nav ul li {
     display: block;
+  }
+
+  .nav-link {
+    color: #fff;
+  }
+
+  .nav-link:hover {
+    color: #000;
   }
 
   .nav ul .small-menu {

@@ -7,31 +7,31 @@
 }
 
 .text-container h2 {
-    color: #fff;
+    color: #000;
 }
 
 .education-wrapper h2{
-    color: #fff;
+    color: #000;
 }
 .education-wrapper h3 {
     padding-top: 0.4rem ;
-    color: #fff;
+    color: #000;
 }
 
 .education-wrapper h4 {
-    color: #fff;
+    color: #000;
 }
 
 .education-wrapper p {
     padding: 0.4rem;
-    color: #fff;
+    color: #000;
 }
 
 
 .education-wrapper{
     width: 60%;
     border-radius: 11px;
-    box-shadow: 0 3px 10px #C778DD;
+    box-shadow: 0 3px 10px #4285F4;
     padding: 20px;
     margin: 40px;
 }
