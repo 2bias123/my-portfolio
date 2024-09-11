@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
                     loading="lazy" 
                     className="project-image"
                     />
-                    <h3 className="project-title">Tauri Graphdrawer</h3>
+                    <h3 className="project-title">Tauri Graph drawer</h3>
                     <p className="project-description">A simple graph drawing tool with a forontend in react TS and a backend in Rust.</p>
                     <a href="https://github.com/2bias123/first-tauri" target="_blank" className="project-link" rel="noreferrer">Take a look</a><img src={arrow} alt="arrow" className="arrow" />
                 </a>
