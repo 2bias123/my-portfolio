@@ -18,13 +18,13 @@ const Navbar: React.FC = () => {
       <h1><HashLink to="#" smooth className="nav-links" onClick={handleNavLinkClick}>Tobias Meyer Innleggen</HashLink></h1>
       <ul className={`list ${isMenuOpen ? "show" : ""}`}>
         <li>
-          <HashLink smooth to="#hero-text" className="nav-link" onClick={handleNavLinkClick}>Om meg</HashLink>
+          <HashLink smooth to="#hero-text" className="nav-link" onClick={handleNavLinkClick}>About Me</HashLink>
         </li>
         <li>
-          <HashLink smooth to="#resume" className="nav-link" onClick={handleNavLinkClick}>CV</HashLink>
+          <HashLink smooth to="#resume" className="nav-link" onClick={handleNavLinkClick}>Résumé</HashLink>
         </li>
         <li>
-          <HashLink smooth to="#projects" className="nav-link" onClick={handleNavLinkClick}>Prosjekter</HashLink>
+          <HashLink smooth to="#projects" className="nav-link" onClick={handleNavLinkClick}>Hobby Projects</HashLink>
         </li>
         <button className="small-menu exiter" onClick={handleClick}>
           <span>&#10006;</span>

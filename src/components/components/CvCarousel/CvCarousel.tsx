@@ -17,65 +17,92 @@ const CvCarousel: React.FC = () => {
 
     return (
         <div className="cv-carousel" id="resume">
-            <h2 className="cv-title">CV</h2>
+            <h2 className="cv-title">Résumé</h2>
             <div className="cv-titles">
-                <h3 className="cv-links active" onClick={() => changeVisibleSection(0)}>Utdanning</h3>
-                <h3 className="cv-links" onClick={() => changeVisibleSection(1)}>Arbeidserfaring</h3>
-                <h3 className="cv-links"  onClick={() => changeVisibleSection(2)}>Andre Ferdigheter</h3>
-                <h3 className="cv-links" onClick={() => changeVisibleSection(3)}>Frivillig Verv</h3>
+                <h3 className="cv-links active" onClick={() => changeVisibleSection(0)}>Education</h3>
+                <h3 className="cv-links" onClick={() => changeVisibleSection(1)}>Work Experience</h3>
+                <h3 className="cv-links"  onClick={() => changeVisibleSection(2)}>Other Skills</h3>
+                <h3 className="cv-links" onClick={() => changeVisibleSection(3)}>Volunteer Work</h3>
             </div>
             <div className="cv-content">
                 <CvPanel isActive={active === 0}>
                     <div className="info-wrapper">
-                        <h4>Bachelorgrad i Datateknologi ved Universitetet i Bergen</h4>
-                        <p>August 2021 - Juni 2024</p>                
-                        <p>Bachelor i datateknologi. En informatikk grad med fokus på programutvikling og problemløsning.</p>
+                        <h4>Master in Computer science at the Vrije Universiteit Amsterdam & Universiteit van Amsterdam</h4>
+                        <p>September 2024 - June 2026</p>
+                        <p>A masters degree in computer science, with a specialization in Computer systems & infrastructure.</p>
+                    </div>
+                    <div className="info-wrapper">
+                        <h4>Bachelor in Computer Science at the University of Bergen</h4>
+                        <p>August 2021 - June 2024</p>
+                        <p>Bachelor in Computer science. An informatics degree with focus on programming and problem
+                            solving.</p>
                     </div>
                 </CvPanel>
                 <CvPanel isActive={active === 1}>
-                <div className="info-wrapper">
-                    <h4>Gruppeleder på Universitet i Bergen</h4>
-                    <p>August 2023 - Desember 2023</p>
-                    <p>
-                        Veiledet studenter i faget “INF102 - Algoritmer, datastrukturer og programmering” 
-                        ved å hjelpe dem å forstå grunnleggende algoritmekonstruksjon, samt å rette deres 
-                        obligatoriske oppgaver.
-                    </p>
-                    <h4>Gruppeleder på Universitet i Bergen</h4>
-                    <p>August 2022 - Desember 2022</p>
-                    <p>
-                        Veiledet studenter i faget "INF100 - Introduksjon til Programmering" 
-                        ved å hjelpe dem med å programmere i python og rette deres obligatoriske oppgaver.
-                    </p>
-                    <h4>Sommervikar hos ABB electrification</h4>
-                    <p>Somre 2019 - 2023</p>
-                    <p>Jobbet som tavlemontør der jeg monterte komponenter i elektriske anlegg.</p>
-                    <h4>Midlertidig ansatt hos ABB electrification</h4>
-                    <p>Mai 2020 - August 2021</p>
-                    <p>Jobbet som tavlemontør der jeg monterte komponenter i elektriske anlegg.</p>
-                </div>
+                    <div className="info-wrapper">
+                        <h4>Student Ambassador at JetBrains</h4>
+                        <p>September 2024 - Present</p>
+                        <p>
+                            As a Student Ambassador at JetBrains, I organized student meetups, workshops, and Q&A sessions, giving presentations on innovative technologies that highlighted JetBrains tools. In addition to promoting internship opportunities, I facilitated the presentation of various internship projects. I also coordinated JetBrains' participation in campus career events, hackathons, and other related activities.                        </p>
+                        <h4>Summer intern at the Norwegian National Broadcaster(NRK)</h4>
+                        <p>June 2024 - August 2024</p>
+                        <p>
+                            As a summer intern at NRK, I built a sports scheduling component using SvelteKit, integrated
+                            with NRK’s systems, and automated CI/CD with GitHub Actions and Docker on Kubernetes.As a
+                            summer intern at NRK, I built a sports scheduling component using SvelteKit, integrated with
+                            NRK’s systems, and automated CI/CD with GitHub Actions and Docker on Kubernetes.
+                        </p>
+                        <h4>Teaching Assistant at the University of Bergen</h4>
+                        <p>January 2024 - May 2024</p>
+                        <p>
+                            Guided students in in the course INF112 - Introduction to Systems Development
+                            by helping them understand and utilise an Agile style of project management, as well as
+                            grading their
+                            mandatory assignments.
+                        </p>
+                        <h4>Teaching Assistant at the University of Bergen</h4>
+                        <p>August 2023 - December 2023</p>
+                        <p>
+                            Guided students in the course "INF102 - Algorithms, Data Structures, and Programming"
+                            by helping them understand fundamental algorithm construction, as well as grading their
+                            mandatory assignments.
+                        </p>
+                        <h4>Teaching Assistant at the University of Bergen</h4>
+                        <p>August 2022 - December 2022</p>
+                        <p>
+                            Guided students in the course "INF100 - Introduction to Programming"
+                            by helping them program in Python and grading their mandatory assignments.
+                        </p>
+                        <h4>Summer Intern at ABB Electrification</h4>
+                        <p>Summers 2019 - 2023</p>
+                        <p>Worked as a panel assembler, where I installed components in electrical systems.</p>
+                        <h4>Temporary Employee at ABB Electrification</h4>
+                        <p>May 2020 - August 2021</p>
+                        <p>Worked as a panel assembler, where I installed components in electrical systems.</p>
+                    </div>
                 </CvPanel>
                 <CvPanel isActive={active === 2}>
                     <div className="info-wrapper languages">
-                        <h4>Språk</h4>
-                        <p>Norsk - Morsmål</p>
-                        <p>Engelsk - Flytende</p>
-                        <h4>Programmeringsspråk og rammeverk</h4>
-                        <p>Java, Python, Rust, Haskell, Git, TypeScript, React, React Native, SQL, HTML, CSS, Tauri, og PHP</p>
+                        <h4>Languages</h4>
+                        <p>Norwegian - Native</p>
+                        <p>English - Fluent</p>
+                        <h4>Programming Languages and Frameworks</h4>
+                        <p>Java, Python, Rust, Haskell, Git, TypeScript, React, React Native,Docker, Kubernetes,
+                            SvelteKit, SQL, HTML, CSS, Tauri, and PHP</p>
                     </div>
                 </CvPanel>
                 <CvPanel isActive={active === 3}>
-                <div className="info-wrapper">
-                    <h4>Styremedlem echo - Hovedstyret linjeforeningen for informatikk</h4>
-                    <p>Juli 2022 - Mars 2024</p>                
-                    <p>Demokratisk valgt inn av medstudenter for å jobbe med å gjøre studiehverdagen til informatikkstudenter bedre.</p>
-                    <h4>Styremedlem echo - Gnist undergruppe av linjeforeningen</h4>
-                    <p>September 2021 - Juni 2024</p>                
-                    <p>Jobbet tett med instituttet for informatikk med frafallsproblematikk og rekruttering.</p>
-                    <h4>echo bediftstur komitee</h4>
-                    <p>Mars 2023 - September 2023</p>
-                    <p>Planla og arrangerte reise til Oslo for å hjelpe echo-studenter med å knyttet kontakter i arbeidslivet.</p>
-                </div>
+                    <div className="info-wrapper">
+                        <h4>Board Member echo - Main Board of the Informatics Student Association</h4>
+                        <p>July 2022 - March 2024</p>
+                        <p>Democratically elected by fellow students to work on improving the daily academic life of informatics students.</p>
+                        <h4>Board Member echo - Gnist Subgroup of the Student Association</h4>
+                        <p>September 2021 - June 2024</p>
+                        <p>Worked closely with the Department of Informatics on dropout issues and recruitment.</p>
+                        <h4>echo Company Trip Committee</h4>
+                        <p>March 2023 - September 2023</p>
+                        <p>Planned and organized a trip to Oslo to help echo students connect with professionals in the workforce.</p>
+                    </div>
                 </CvPanel>
             </div>
         </div>
