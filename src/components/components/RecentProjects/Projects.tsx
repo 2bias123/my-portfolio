@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
                     className="project-image"
                     />
                     <h3 className="project-title">Travel app</h3>
-                    <p className="project-description">Ea mobile application for tracking and sharing travel experiences.</p>
+                    <p className="project-description">A mobile application for tracking and sharing travel experiences.</p>
                     <a href="https://github.com/SofTob/Project0" target="_blank" className="project-link" rel="noreferrer">Take a look</a><img src={arrow} alt="arrow" className="arrow" />
                 </a>
                 <a href="https://github.com/2bias123/my-portfolio" target="_blank" className="project-container" rel="noreferrer">                    

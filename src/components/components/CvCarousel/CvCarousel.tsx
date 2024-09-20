@@ -47,18 +47,15 @@ const CvCarousel: React.FC = () => {
                         <h4>Summer intern at the Norwegian National Broadcaster(NRK)</h4>
                         <p>June 2024 - August 2024</p>
                         <p>
-                            As a summer intern at NRK, I built a sports scheduling component using SvelteKit, integrated
-                            with NRK’s systems, and automated CI/CD with GitHub Actions and Docker on Kubernetes.As a
-                            summer intern at NRK, I built a sports scheduling component using SvelteKit, integrated with
-                            NRK’s systems, and automated CI/CD with GitHub Actions and Docker on Kubernetes.
+                            Developed a sports scheduling component using SvelteKit, integrated
+                            with NRK’s systems, and automated CI/CD with GitHub Actions and Docker on Kubernetes.
                         </p>
                         <h4>Teaching Assistant at the University of Bergen</h4>
                         <p>January 2024 - May 2024</p>
                         <p>
                             Guided students in in the course INF112 - Introduction to Systems Development
                             by helping them understand and utilise an Agile style of project management, as well as
-                            grading their
-                            mandatory assignments.
+                            grading their mandatory assignments.
                         </p>
                         <h4>Teaching Assistant at the University of Bergen</h4>
                         <p>August 2023 - December 2023</p>
